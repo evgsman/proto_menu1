@@ -713,7 +713,7 @@ section * {
     z-index: 1;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 992px) {  
   body > .collapse.navbar-collapse {
     display: none !important;
   }
@@ -946,7 +946,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   position: relative;
   padding-top: 5px;
 }
-@media (min-width: 992px) {
+@media (min-width: 992px) { 
   .header-5 .navbar .nav {
     position: absolute;
     width: 100%;
@@ -1026,7 +1026,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 }
 .header-5 .navbar .navbar-toggle {
   z-index: 10000;
-  float: none;
+  float: right;
   margin: 0 auto;
   display: block;
 }
@@ -1219,4 +1219,12 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 .header-5-sub .pt-control-next.active,
 .header-5-sub .pt-control-prev.active {
   color: #ffffff;
+}
+
+
+/* ==================== Evg @media ================ */
+@media (max-width: 992px) { 
+  .header-5 .navbar .search {
+    display: none;
+  }
 }
