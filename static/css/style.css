@@ -826,7 +826,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 /**
  * Header 5 stylesheet  
  * */
-.header-5 {
+ .header-5 {
   padding-top: 0;
   padding-bottom: 0;
   z-index: 100;
@@ -1222,11 +1222,31 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 }
 
 
-/* ==================== Evg @media ================ */
-@media (max-width: 992px) { 
-  .header-5 .navbar .search {
-    display: none;
-  }
+
+/* ==================== override the default Bootstrap CSS ================ */
+.navbar-header {
+  float: none;
+}
+.navbar-toggle {
+  display: block;
+}
+.navbar-collapse {
+  border-top: 1px solid transparent;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+}
+.navbar-collapse.collapse {
+ 
+}
+.navbar-nav {
+  float: none!important;
+  margin: 7.5px -15px;
+}
+.navbar-nav>li {
+  float: none;
+}
+.navbar-nav>li>a {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 
@@ -1236,14 +1256,28 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   text-align: left;
 }
 
+.navbar-search {
+  /* background: red;*/
+  padding-bottom: 150px;
+}
+
+#navbar-toggle_on {
+  display: block!important;
+}
+
+
+/* ==================== Evg @media ================ */
+@media (max-width: 992px) { 
+  .header-5 .navbar .search {
+    display: none;
+  }
+}
+
 
 /* ==================== Evg temp ================ */
 .navbar .subnav {
-  display: block; //temp
-}
+   display: block; //temp
+ }
 
-.navbar-search {
-/* background: red;*/
-  padding-bottom: 150px;
-}
+
 
