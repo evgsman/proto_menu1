@@ -1228,3 +1228,22 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
     display: none;
   }
 }
+
+
+/* ==================== Evg custom ================ */
+.navbar .subnav li{
+  list-style-type: none;
+  text-align: left;
+}
+
+
+/* ==================== Evg temp ================ */
+.navbar .subnav {
+  display: block; //temp
+}
+
+.navbar-search {
+/* background: red;*/
+  padding-bottom: 150px;
+}
+
