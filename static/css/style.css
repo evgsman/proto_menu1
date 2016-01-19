@@ -425,7 +425,7 @@ p {
 .page-wrapper {
   position: relative;
   z-index: 2;
-  background: #fff;
+  background: #051436;
   overflow: hidden;
   min-height: 100%;
 }
