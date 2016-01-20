@@ -623,7 +623,8 @@ section * {
   float: left;
 }
 .navbar .subnav {
-  display: none;
+  height: 0px;
+  overflow-y:hidden;
 }
 .navbar a {
   -webkit-transition: color 0.25s, background 0.25s;
@@ -1295,7 +1296,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 
 /* ==================== Evg temp ================ */
 .navbar .subnav {
-   display: block; //temp
+  // display: block; //temp
  }
 
 
